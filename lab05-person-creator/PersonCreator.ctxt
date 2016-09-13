@@ -1,2 +1,4 @@
 #BlueJ class context
-numComments=0
+comment0.params=first\ last
+comment0.target=PersonCreator(java.lang.String,\ java.lang.String)
+numComments=1
