@@ -124,9 +124,17 @@ public class PersonCreator
     }
         
     /*Shows all values
-     * Input: 
-     * Output:
-     * Example:
+     * Input: No input
+     * Output: Prints all values of the person
+     * Example: Full name: Gabrielle Laurito
+     *          Sex: Female
+     *          Height: 5' 5''
+     *          Address: 10 Street Dr.
+     *          Funville, NY 11111
+     *          Social Security Number: 123-12-1234
+     *          Phone Number: 456-456-4567
+     *          Date of Birth: 3/20/1998
+     *          Weight: 100
      */
     public void printPerson()
     {
@@ -134,7 +142,7 @@ public class PersonCreator
         System.out.println("Sex: "+ gender); 
         System.out.println("Height: "+ height1 +"'"+ height2 +"''");
         System.out.println("Address: "+ houseNum +", "+ address +", "+ street);
-        System.out.println(town +", "+ state + ", "+ zip);
+        System.out.println(town +", "+ state + " "+ zip);
         System.out.println("Social Security Number: "+first+"-"+second+"-"+third);
         System.out.println("Phone Number: "+ num1 +"-"+ num2 +"-"+num3);
         System.out.println("Date of Birth: "+month+"/"+date+"/"+year);

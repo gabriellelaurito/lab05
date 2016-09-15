@@ -27,5 +27,5 @@ comment8.target=void\ getweight(int)
 comment8.text=Weight\r\n\ Input\:\ int\r\n\ Output\:\ No\ output.\ The\ value\ of\ j\ will\ become\ the\ value\ enter\ name.\r\n\ Example\:\ Enter\ 100\ into\ j,\ weight\ \=\ 100\r\n
 comment9.params=
 comment9.target=void\ printPerson()
-comment9.text=Shows\ all\ values\r\n\ Input\:\ \r\n\ Output\:\r\n\ Example\:\r\n
+comment9.text=Shows\ all\ values\r\n\ Input\:\ No\ input\r\n\ Output\:\ Prints\ all\ values\ of\ the\ person\r\n\ Example\:\ Full\ name\:\ Gabrielle\ Laurito\r\n\ \ \ \ \ \ \ \ \ \ Sex\:\ Female\r\n\ \ \ \ \ \ \ \ \ \ Height\:\ 5'\ 5''\r\n\ \ \ \ \ \ \ \ \ \ Address\:\ 10\ Street\ Dr.\r\n\ \ \ \ \ \ \ \ \ \ Funville,\ NY\ 11111\r\n\ \ \ \ \ \ \ \ \ \ Social\ Security\ Number\:\ 123-12-1234\r\n\ \ \ \ \ \ \ \ \ \ Phone\ Number\:\ 456-456-4567\r\n\ \ \ \ \ \ \ \ \ \ Date\ of\ Birth\:\ 3/20/1998\r\n\ \ \ \ \ \ \ \ \ \ Weight\:\ 100\r\n
 numComments=10
