@@ -23,8 +23,22 @@ public class PersonCreator
         name = first + " " + last;
     }
     
+    public void setAge(int newAge)
+    {
+        if (newAge > 10 && newAge < 99)
+        {
+           age = newAge; 
+        }
+        
+        else
+        {
+          System.err.println("Please enter a valid age"); 
+        }
+        
+    }
     
+    public void setSex()
+    {
     
-    
-    
+    }
 }
