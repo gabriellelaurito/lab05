@@ -49,25 +49,52 @@ public void setSex (String newSex)
 }
 public void setHeight (int newHeight) 
 {
-    height = newWeight;
+    height = newHeight;
 }
 public void setWeight (int newWeight)
 {
     weight = newWeight;
 }
-public void socialSecuritynumber (String SSN)
+public void socialSecurity (int numStart, int numMid, int numEnd)
 {
-    socialSecurity = newsocialSecurity;
+    if (numStart <100 || numStart > 999){
+    
+        System.err.println("Pleaseusevalidnumber.");
+    
+    } else if (numMid <10 || numMid > 99){
+    
+        System.err.println("Pleaseusevalidnumber.");
+    } else if (numEnd  <100 || numEnd > 999){
+    
+        System.err.println("Pleaseusevalidnumber.");
+    } else {// if not numStart <100 || numStart>999) is not true do
+        socialSecurity = numStart + "-" + numMid + "-" + numEnd;}
 }  
 public void setAddress (String newAddress) 
 {
     address = newAddress;
 }
-public void phoneNumber (int Var1,int Var2, int Var3)
+public void changeNumber (int areaCode,int firstNum, int lastNum)
 {
-    if(Var1 <100 { 
+    //if area code isn't acceptable, tell user to input something else. 
+    if (areaCode <100 || areaCode > 999) {
+        
+        System.err.println("Pleaseusevalidareacode.");
+  
+    } else if (firstNum <100 || firstNum > 999){
     
+        System.err.println("Pleaseusevalidnumber.");
+    } else if (lastNum <100 || lastNum > 999){
+        
+        System.err.println("Pleaseusevalidnumber.");
+    } else {// if not (areaCode <100 || areaCode >999) is not true do
+        phoneNumber = areaCode + "-" + firstNum + "-" + lastNum}
+    }
+    
+   
 }
-public dateofBirth (String month, int date, int year)
+public void setdateofBirth (String dateofBirth)
 {
-    dateofBirth = 
+    dateofBirth = newdateofBirth;
+}
+}
