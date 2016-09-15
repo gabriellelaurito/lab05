@@ -37,8 +37,8 @@ public class PersonCreator
         
     }
     
-    public void setSex()
+    public void setSex(String sex)
     {
-    
+        this.sex = sex;
     }
 }
