@@ -66,12 +66,12 @@ public class PersonCreator
             System.err.println("Please enter a valid SSN");
         }
         
-        else if (SSN2 < 100 || SSN2 > 999)
+        else if (SSN2 < 10 || SSN2 > 99)
         {
             System.err.println("Please enter a valid SSN");
         }
         
-        else if (SSN3 < 100 || SSN3 > 999)
+        else if (SSN3 < 1000 || SSN3 > 9999)
         {
             System.err.println("Please enter a valid SSN");
         }
@@ -83,6 +83,9 @@ public class PersonCreator
     
     }
     
-    public void setAddress()
+    public void setAddress(String HouseNum ,String StreetName ,String StreetType)
+    {
+        address = HouseNum + " " + StreetName + " " + StreetType;
+    }
     
 }
