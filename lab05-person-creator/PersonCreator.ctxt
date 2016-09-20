@@ -1,8 +1,16 @@
 #BlueJ class context
 comment0.params=first\ last
 comment0.target=PersonCreator(java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Description\ -\ Creates\ the\ users\ name\:\ First\ Name\ and\ Last\ Name\r\n\ Input\ -\ String\ first\ name,\ String\ last\ name\r\n\ Output\ -\ String\ first\ name,\ String\ last\ name\r\n\ Example\ -\ Alex\ Blackwood\r\n
 comment1.params=newAge
 comment1.target=void\ setAge(int)
+comment1.text=\r\n\ Description\ -\ Sets\ the\ users\ age\r\n\ Input\ -\ int,\ users\ age\r\n\ Output\ -\ int,\ users\ age\ \r\n
 comment2.params=sex
 comment2.target=void\ setSex(java.lang.String)
-numComments=3
+comment3.params=newHeight
+comment3.target=void\ setHeight(int)
+comment4.params=newWeight
+comment4.target=void\ setWeight(int)
+comment5.params=SSN1\ SSN2\ SSN3
+comment5.target=void\ setSSN(int,\ int,\ int)
+numComments=6
