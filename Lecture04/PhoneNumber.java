@@ -41,7 +41,7 @@ public void changeNumber(int areaCode, int numBegin, int numEnd)
       System.err.println("Please use a valid number")
     }
 
-  else if (numEnd < 100 || numEnd > 999)
+  else if (numEnd < 1000 || numEnd > 9999)
       {
         System.err.println("Please use a valid number")
   else // If not (areaCode < 100 || areaCode > 999) is not true, do
