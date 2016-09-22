@@ -11,7 +11,7 @@ public class PersonCreator
     private int weight;
     private String ssn;
     private String address;
-    private int phoneNumber;
+    private String phoneNumber;
     private String dob;
 
     /*
@@ -24,7 +24,7 @@ public class PersonCreator
     {
         name = first + " " + last;
     }
-
+    
     /*
      * Description - Sets the users age
      * Input - int, users age
@@ -43,22 +43,37 @@ public class PersonCreator
         }
 
     }
-
+    
+    /*
+     * Description - Sets the users sex
+     */
     public void setSex(String sex)
     {
         this.sex = sex;
     }
 
+    /*
+     * Description - Sets the users height
+     */
     public void setHeight(int newHeight)
     {
         height = newHeight;
     }
 
+    /*
+     * Description - Sets the users weight
+     */
     public void setWeight(int newWeight)
     {
         weight = newWeight;
     }
 
+    /*
+     * Description - Creates the users SSN
+     * Input - int SSN1, int SSN2, int SSN3
+     * Output - int SSN1, int SSN2, intSSN3
+     * Example - 666-66-6666
+     */
     public void setSSN(int SSN1, int SSN2, int SSN3)
     {
         if (SSN1 < 100 || SSN1 > 999)
@@ -83,9 +98,61 @@ public class PersonCreator
     
     }
     
+    /*
+     * Description - Sets the users address
+     * Input - String HouseNum, String StreetName, String StreetType
+     * Output - String HouseNum, String StreetName, String StreetType
+     * Example - 666 Hell Blvd
+     */
     public void setAddress(String HouseNum ,String StreetName ,String StreetType)
     {
         address = HouseNum + " " + StreetName + " " + StreetType;
     }
+    
+    /*
+     * Description - Sets the users phone number
+     * Input - int areaCode, int numBegin, int numEnd
+     * Output - int areaCode, int numBegin, int numEnd
+     * Example - 666-666-6666
+     */
+    public void setPhoneNumber(int areaCode, int numBegin, int numEnd)
+    {
+        phoneNumber = "100-100-1000";
+    
+        if (areaCode < 100 || areaCode > 999)
+        {
+            System.err.println("Please enter a valid areaCode");
+        }
+        
+        else if (numBegin < 100 || numBegin > 999)
+        {
+            System.err.println("Please enter a valid numBegin");
+        }
+        
+        else if (numEnd < 1000 || numEnd > 9999)
+        {
+            System.err.println("Please enter a valid numEnd");
+        }
+        
+        else
+        {
+            phoneNumber = areaCode + "-" + numBegin + "-" + numEnd;
+        }
+    
+    
+    
+    }
+    
+    /*
+     * Description - Sets the users DOB
+     * Input - String Month ,String Day ,String Year
+     * Output - String Month ,String Day ,String Year
+     * Example - June 6 2006
+     */
+    public void setDOB(String Month ,String Day ,String Year)
+    {
+        dob = Month + " " + Day + " " + Year;
+    }
+
     
 }
